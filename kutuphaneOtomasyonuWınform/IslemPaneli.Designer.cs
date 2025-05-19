@@ -81,6 +81,7 @@
             this.GucelleKullanıcıBtn.TabIndex = 3;
             this.GucelleKullanıcıBtn.Text = "GÜNCELLE";
             this.GucelleKullanıcıBtn.UseVisualStyleBackColor = false;
+            this.GucelleKullanıcıBtn.Click += new System.EventHandler(this.GucelleKullanıcıBtn_Click);
             // 
             // EkleKullaniciBtn
             // 

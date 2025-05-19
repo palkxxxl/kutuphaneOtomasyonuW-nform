@@ -62,5 +62,12 @@ namespace kutuphaneOtomasyonuWınform
             kSil.MdiParent=this;
             kSil.Show();
         }
+
+        private void GucelleKullanıcıBtn_Click(object sender, EventArgs e)
+        {
+            KullaniciGuncelleForm kGuncel=new KullaniciGuncelleForm();
+            kGuncel.MdiParent=this;
+            kGuncel.Show();
+        }
     }
 }
